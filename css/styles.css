@@ -5,9 +5,14 @@ body{
 /* font-family: 'Montserrat', sans-serif; 
 font-family: 'Raleway', sans-serif;*/
 
-/*ul {
+ul {
     list-style: none;
-} */
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* Buttons */
 .button {
@@ -26,7 +31,9 @@ font-family: 'Raleway', sans-serif;*/
 .button:hover,
 .button:active {
     color: white;
-    background-color: #2196F3;    
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .page-buttons,
@@ -79,6 +86,110 @@ font-family: 'Raleway', sans-serif;*/
     /*color: #FFFFFF;*/
 }
 
-/*.gallery {
-    text-decoration: none;
-}*/
+/* Gallery */
+
+.galleries {
+}
+
+.gallery-image {   
+}
+
+.gallery-title {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.gallery-paragraph {
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+/* index */
+
+.main-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.specialisation-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.specialisation-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.work-title, .title-team{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-image-1 {
+
+}
+
+.work-image-2 {
+
+}
+
+.work-image-3 {
+
+}
+
+.person-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.person-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
