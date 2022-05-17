@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Studio</title> 
 </head>
@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <!--Header-->
-        <a class="company-name1" href="/">Web<span class="company-name2">Studio</span></a>
+        <a class="header-company-name1" href="/">Web<span class="header-company-name2">Studio</span></a>
         <nav class="navigation">
             <ul class="navigate-list">
                 <li class="navigate-item"><a class="page-buttons" href="./index.html">Студия</a></li>
@@ -24,15 +24,15 @@
             </ul>
         </nav>
             <ul>
-                <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="header-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
     </header>
     <main>
         <section>
             <!--Head--> 
-            <h1 class="main-title">Эффективные решения <br /> для вашего бизнеса</h1>
-            <button class="button" type="button">Заказать услуги</button> 
+            <div class="head-background"><h1 class="main-title">Эффективные решения <br /> для вашего бизнеса</h1>
+            <button class="button-title" type="button">Заказать услуги</button></div>
         </section>
         <section>  
             <!--Specialisation-->
@@ -66,6 +66,7 @@
         </section>
         <!--Our-Team-->
         <section>
+            <div class="team-section">
             <h2 class="title-team">Наша команда</h2>
             <!--Igor-->
             <ul>
@@ -93,16 +94,18 @@
                     <p class="person-description">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <!--WebStudio Footer-->
     <footer>
-        <a class="company-name1" href="/">Web<span class="company-name2">Studio</span></a>
+        <div class="footer-background"><a class="footer-company-name1" href="/">Web<span class="footer-company-name2">Studio</span></a>
         <address class="location">
-            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="contacts" href="mailto:info@example.com">info@example.com</a>
-            <a class="contacts" href="tel:+380991111111">+38 099 111 11 11</a>
+            <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="footer-contacts" href="mailto:info@example.com">info@example.com</a><br>
+            <a class="footer-contacts" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
+        </div>
     </footer>
 </body>
 </html>

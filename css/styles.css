@@ -1,9 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    
+    color: #212121;
 }
-/* font-family: 'Montserrat', sans-serif; 
-font-family: 'Raleway', sans-serif;*/
 
 ul {
     list-style: none;
@@ -15,18 +13,33 @@ a {
 
 
 /* Buttons */
-.button {
+.button-title {
     background-color: #F5F4FA;
     border: none;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 2.14;
     letter-spacing: 0.06em;
     cursor: pointer;
+    border-radius: 4px;
 }
 
-.button:hover,
-.button:active {
+.button-gallery {
+    background-color: #F5F4FA;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-gallery:hover,
+.button-galley:active,
+.button-title:hover,
+.button-title:active {
     color: white;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -36,55 +49,81 @@ a {
 .page-buttons {
     text-decoration: none;
     color: black;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-.contacts {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
 }
 
 .page-buttons:hover,
 .page-buttons:active,
-.contacts:hover,
-.contacts:active {
+.header-contacts:hover,
+.header-contacts:active {
     color: #2196F3;
 }
 
-/*Company name*/
+/*Header*/
 
-.company-name1 {
+.header-company-name1 {
     color: #2196F3;
 }
 
-.company-name2 {
+.header-company-name2 {
     color: black;
 }
 
-.company-name1,
-.company-name2 {
+.header-company-name1,
+.header-company-name2 {
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.address {
-    font-weight: 400;
+.header-contacts {
+    font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/*Footer*/
+
+.footer-company-name1 {
+    color: #2196F3;
+}
+
+.footer-company-name2 {
+    color: #FFFFFF;
+}
+
+.footer-company-name1,
+.footer-company-name2 {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    /*color: #FFFFFF;*/
+}
+
+.footer-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF
+}
+
+.footer-contacts {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* Gallery */
@@ -99,15 +138,14 @@ a {
     color: #212121;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .gallery-paragraph {
     color: #757575;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
 
@@ -116,25 +154,25 @@ a {
 .main-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .specialisation-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 
 .specialisation-text {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -142,7 +180,7 @@ a {
 .work-title, .title-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -163,18 +201,30 @@ a {
 .person-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
 .person-description {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
+/* Background colors */
+
+.footer-background {
+    background: #2F303A;
+}
+
+.head-background {
+    background: #2F303A;
+}
+
+.team-section {
+    background: #F5F4FA;
+}
